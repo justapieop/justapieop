@@ -46,6 +46,7 @@ export default function Home(): JSX.Element {
                                 <a href="#">
                                     <img className="align-middle" src="https://github-readme-stats.vercel.app/api?username=JustAPieOP&count_private=true&show_icons=true&theme=radical" />
                                 </a>
+                                <div className="pt-2" />
                                 <a href="#">
                                     <img className="align-center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justapieop&layout=compact&theme=dark" />
                                 </a>
