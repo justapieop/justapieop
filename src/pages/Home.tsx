@@ -87,7 +87,7 @@ export default function Home(): JSX.Element {
                         <div className="pt-5">
                             <BigContainer className="pt-5 bg-sec shadow rounded-lg p-6">
                                 <h2 className="text-xl text-white font-bold mb-4">Utilities</h2>
-                                <SmallContainer className="shadow rounded-lg p-6">
+                                <SmallContainer className="rounded-lg p-6">
                                     <h1 className="font-bold text-white">Random number generator</h1>
                                     <form onSubmit={onSubmit}>
 
