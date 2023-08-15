@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: rgb(35, 39, 42);
+.bg-first {
+  background-color: #18122B;
+}
+
+.bg-sec {
+  background-color: #393053;
+}
+
+.bg-third {
+  background-color: #443C68;
+}
+
+.bg-fourth {
+  background-color: #635985;
+}
+
+@layer base {
+  html {
+    font-family: ui-monospace,
+      SFMono-Regular,
+      Menlo,
+      Monaco,
+      Consolas,
+      "Liberation Mono",
+      "Courier New",
+      monospace;
+    ;
+  }
 }

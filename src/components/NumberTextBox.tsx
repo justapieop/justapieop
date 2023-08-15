@@ -1,7 +1,10 @@
 export default function NumberTextBox(props: { label: string, type: string, className?: string }): JSX.Element {
     return (
         <div>
-            <label>{props.label}</label>
+            <label className="text-white">
+                {props.label}
+            </label>
+            <div className="pt-1" />
             <input type="number" className={props.className} placeholder="" required />
         </div>
     );
