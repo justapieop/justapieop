@@ -24,10 +24,27 @@ export default function Home(): JSX.Element {
                         <div>
                             <SmallContainer className="bg-sec shadow rounded-lg p-6">
                                 <Profile avatar="/assets/avatar.png" name="Đỗ Trần Thái An" desc="Students & Junior Developer" />
-                                <SmallBorder />
+                            </SmallContainer>
+                        </div>
+                        <div className="pt-5">
+                            <SmallContainer className="bg-sec shadow rounded-lg p-6">
                                 <span className="text-white uppercase font-bold tracking-wider mb-2">
-                                    Technology
+                                    Details
                                 </span>
+                                <SmallBorder />
+                                <SmallList className="text-white">
+                                    <li className="mb-2">🏠 Nam Dinh - Vietnam</li>
+                                    <li className="mb-2">💼 Student - Junior Developer</li>
+                                    <li className="mb-2">🏫 Le Hong Phong High School for The Gifted</li>
+                                </SmallList>
+                            </SmallContainer>
+                        </div>
+                        <div className="pt-5">
+                            <SmallContainer className="bg-sec shadow rounded-lg p-6">
+                                <span className="text-white uppercase font-bold tracking-wider mb-2">
+                                    Technologies
+                                </span>
+                                <SmallBorder />
                                 <SmallList className="text-white">
                                     <li className="mb-2">TypeScript</li>
                                     <li className="mb-2">Node.js</li>
@@ -40,7 +57,7 @@ export default function Home(): JSX.Element {
                         <div className="pt-5">
                             <SmallContainer className="bg-sec shadow rounded-lg p-6">
                                 <span className="text-white uppercase font-bold tracking-wider mb-2">
-                                    My stats
+                                    My Github stats
                                 </span>
                                 <SmallBorder />
                                 <a href="#">
@@ -56,6 +73,46 @@ export default function Home(): JSX.Element {
 
                     <div className="col-span-4 sm:col-span-9 ">
                         <div>
+                            <BigContainer className="pt-5 bg-sec shadow rounded-lg p-6">
+                                <h2 className="text-xl text-white font-bold">About Me</h2>
+                                <h1 className="font-bold text-white pt-3">
+                                    Hello, My name is Đỗ Trần Thái An (aka. Pie). I am currently a student at Le Hong Phong Highschool for The Gifted.<br />
+                                    My hobby is to make computer programs, as well as making server apps.<br />
+                                </h1>
+                            </BigContainer>
+                        </div>
+
+
+                        <div className="pt-5">
+                            <BigContainer className="pt-5 bg-sec shadow rounded-lg p-6">
+                                <h2 className="text-xl text-white font-bold">Achievements</h2>
+                                <SmallContainer className="rounded-lg p-6">
+                                    <h2 className="text-xl text-white font-bold">Language</h2>
+                                    <SmallContainer className="rounded-lg p-3">
+                                        <h1 className="font-bold text-white">IELTS 7.5 (2023 - 2025)</h1>
+                                        <h1 className="font-bold text-white">Japanese Learner</h1>
+
+                                    </SmallContainer>
+                                    <h2 className="text-xl text-white font-bold">Computer Science</h2>
+                                    <SmallContainer className="rounded-lg p-3">
+                                        <h1 className="font-bold text-white">Developer of Tohru Music Discord Bot</h1>
+                                    </SmallContainer>
+                                    <h2 className="text-xl text-white font-bold">Microsoft Office Specialist (MOS)</h2>
+                                    <SmallContainer className="rounded-lg p-3">
+                                        <h1 className="font-bold text-white">MOS Certificate (1000/1000 points)</h1>
+                                        <h1 className="font-bold text-white">4<sup>rd</sup> Place MOSWC National Finals 2022</h1>
+                                        <h1 className="font-bold text-white">4<sup>rd</sup> Place MOSWC National Finals 2023</h1>
+                                    </SmallContainer>
+                                    <h2 className="text-xl text-white font-bold">Social</h2>
+                                    <SmallContainer className="rounded-lg p-3">
+                                        <h1 className="font-bold text-white">Member of Vocational Guidance Club (VGC)</h1>
+                                    </SmallContainer>
+                                </SmallContainer>
+
+                            </BigContainer>
+                        </div>
+
+                        <div className="pt-5">
                             <BigContainer className="bg-sec shadow rounded-lg p-6">
                                 <h3 className="font-semibold text-center text-white mt-3 -mb-2">
                                     My social accounts
@@ -87,7 +144,7 @@ export default function Home(): JSX.Element {
 
                         <div className="pt-5">
                             <BigContainer className="pt-5 bg-sec shadow rounded-lg p-6">
-                                <h2 className="text-xl text-white font-bold mb-4">Utilities</h2>
+                                <h2 className="text-xl text-white font-bold">Utilities</h2>
                                 <SmallContainer className="rounded-lg p-6">
                                     <h1 className="font-bold text-white">Random number generator</h1>
                                     <form onSubmit={onSubmit}>
