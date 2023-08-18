@@ -76,7 +76,7 @@ export default function Home(): JSX.Element {
                             <BigContainer className="pt-5 bg-sec shadow rounded-lg p-6">
                                 <h2 className="text-xl text-white font-bold">About Me</h2>
                                 <h1 className="font-bold text-white pt-3">
-                                    Hello, My name is Đỗ Trần Thái An (aka. Pie). I am currently a student at Le Hong Phong Highschool for The Gifted.<br />
+                                    Hello, My name is Đỗ Trần Thái An (aka. Pie). I am currently a student at Le Hong Phong High School for The Gifted.<br />
                                     My hobby is to make computer programs, as well as making server apps.<br />
                                 </h1>
                             </BigContainer>
