@@ -60,12 +60,12 @@ export default function Home(): JSX.Element {
                                     My Github stats
                                 </span>
                                 <SmallBorder />
-                                <a href="#">
-                                    <img className="align-middle" src="https://github-readme-stats.vercel.app/api?username=JustAPieOP&count_private=true&show_icons=true&theme=radical" />
+                                <a href="https://github.com/justapieop">
+                                    <img alt="My stats" className="align-middle" src="https://github-readme-stats.vercel.app/api?username=JustAPieOP&count_private=true&show_icons=true&theme=radical" />
                                 </a>
                                 <div className="pt-2" />
-                                <a href="#">
-                                    <img className="align-center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justapieop&layout=compact&theme=dark" />
+                                <a href="https://github.com/justapieop">
+                                    <img alt="My Stats" className="align-center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=justapieop&layout=compact&theme=dark" />
                                 </a>
                             </SmallContainer>
                         </div>
