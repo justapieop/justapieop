@@ -90,7 +90,7 @@ export default function Home(): JSX.Element {
                                     <h2 className="text-xl text-white font-bold">Language</h2>
                                     <SmallContainer className="rounded-lg p-3">
                                         <h1 className="font-bold text-white">IELTS 7.5 (2023 - 2025)</h1>
-                                        <h1 className="font-bold text-white">Started learning Japanese from 2023</h1>
+                                        <h1 className="font-bold text-white">Started learning Japanese since 2023</h1>
 
                                     </SmallContainer>
                                     <h2 className="text-xl text-white font-bold">Computer Science</h2>
