@@ -6,7 +6,7 @@ export default function Home(): JSX.Element {
   return (
     <Box width="100%" height="100vh">
       <Box position="absolute" top="0" left="0" width="100%" height="100%" backgroundColor="#000000ac" />
-      <video src="/yae_miko.mp4" autoPlay loop muted />
+      <video src="/yae.mp4" autoPlay loop muted />
       <Box position="absolute" top="0" width="100%" height="100%" display="flex" flexDirection="column" justifyContent="center" alignItems="flex-start">
         <Container>
           <Card maxWidth="md" rounded="2xl" right={{ xl: "150px" }} opacity="0.85" backgroundColor="#2d2b2baa">
