@@ -1,13 +1,12 @@
 import { Container, Card, CardHeader, Text, Avatar, Box, Flex, Button, CardFooter, Link, Image } from "@chakra-ui/react";
 import { FaDiscord, FaGithub, FaTwitter } from "react-icons/fa";
 import AvatarImg from "../assets/avatar.png";
-import BackgroundImg from "../assets/background.png";
 
 export default function Home(): JSX.Element {
   return (
     <Box width="100%" height="100vh">
       <Box position="absolute" top="0" left="0" width="100%" height="100%" backgroundColor="#000000ac" />
-      <Image src={BackgroundImg.src} height="100vh" width="100%" objectFit="cover" />
+      <video src="/yae.mp4" height="100vh" width="100%" autoPlay loop muted />
       <Box position="absolute" top="0" width="100%" height="100%" display="flex" flexDirection="column" justifyContent="center" alignItems="flex-start">
         <Container>
           <Card maxWidth="md" rounded="2xl" right={{ xl: "150px" }} opacity="0.85" backgroundColor="#2d2b2baa">
