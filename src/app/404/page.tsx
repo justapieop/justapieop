@@ -1,5 +1,5 @@
 import { Center, Image } from "@chakra-ui/react";
-import NotFoundImage from "../../assets/404.png";
+import NotFoundImage from "../../assets/404.webp";
 
 export default function NotFound(): JSX.Element {
     return (
