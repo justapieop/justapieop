@@ -1,4 +1,5 @@
 import { ProfileCard } from "@/components/ProfileCard";
+import { UtilsBar } from "@/components/UtilsBar";
 import { Box, Grid, GridItem } from "@chakra-ui/react";
 
 export default function Home(): JSX.Element {
@@ -8,7 +9,7 @@ export default function Home(): JSX.Element {
       height="100vh"
     >
       <Box
-        className="scheme-1"
+        backgroundColor="#070F2B"
         position="absolute"
         top="0"
         width="100%"
@@ -20,14 +21,13 @@ export default function Home(): JSX.Element {
       >
         <Grid
           gap={5}
-          templateColumns="repeat(2, minmax(200px, 1fr))"
         >
           <GridItem>
-            <ProfileCard />
+            <UtilsBar />
           </GridItem>
 
           <GridItem>
-
+            <ProfileCard />
           </GridItem>
         </Grid>
       </Box>
