@@ -1,6 +1,6 @@
-import { Card, CardHeader, Flex, Avatar, Box, CardBody, HStack, CardFooter, Button, Link, Text } from "@chakra-ui/react";
+import { Card, CardHeader, Flex, Avatar, Box, CardFooter, Button, Link, Text, CardBody, VStack, HStack } from "@chakra-ui/react";
 import { FaGithub, FaDiscord, FaTwitter } from "react-icons/fa";
-import { TbMapPin, TbMail } from "react-icons/tb";
+import { TbMail, TbMapPin } from "react-icons/tb";
 
 export function ProfileCard(): JSX.Element {
     return (
@@ -27,25 +27,23 @@ export function ProfileCard(): JSX.Element {
 
             <CardBody>
                 <Flex
+                    paddingLeft="15px"
                     flex="1"
                     gap="4"
                     alignItems="center"
                     flexWrap="wrap"
                 >
-                    <HStack
-                        spacing="3"
-                    >
-                        <TbMapPin color="white" size={20} />
+                    <Flex columnGap="10px">
+                        <TbMapPin color="white" size="20" />
                         <Text>Vietnam</Text>
-                    </HStack>
-                    <HStack
-                        spacing="3"
-                    >
-                        <TbMail color="white" size={20} />
-                        <Text>justapie06@gmail.com</Text>
-                    </HStack>
+                    </Flex>
+                    <Flex columnGap="10px">
+                        <TbMail color="white" size="20" />
+                        <Text>work@justapie.net</Text>
+                    </Flex>
                 </Flex>
             </CardBody>
+
 
             <CardFooter
                 justify="space-evenly"
