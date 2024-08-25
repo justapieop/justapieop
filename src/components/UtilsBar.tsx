@@ -10,7 +10,7 @@ export function UtilsBar(): JSX.Element {
         >
             <CardFooter>
                 <Flex gap="4" paddingLeft="15px">
-                    <Flex columnGap="10px" float="right">
+                    <Flex columnGap="10px">
                         <TbCalendar color="white" size="20" />
                         <Calendar />
                     </Flex>
