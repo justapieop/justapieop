@@ -6,7 +6,7 @@ export function Calendar(): JSX.Element {
 
     return (
         <Text>
-            {Utils.doubleDigitFormatter(date.getDay())}/{Utils.doubleDigitFormatter(date.getMonth())}/{Utils.doubleDigitFormatter(date.getFullYear())}
+            {Utils.doubleDigitFormatter(date.getDay())}/{Utils.doubleDigitFormatter(date.getMonth())}/{date.getFullYear()}
         </Text>
     );
 }
