@@ -1,5 +1,6 @@
 "use client";
 
+import { Utils } from "@/utils/Utils";
 import { Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 
@@ -10,7 +11,7 @@ export function TextClock(): JSX.Element {
 
     useEffect(() => {
         const timeString: string =
-            `${Intl.DateTimeFormat().resolvedOptions().timeZone} ${doubleDigitFormatter(date.getHours())}:${doubleDigitFormatter(date.getMinutes())}:${doubleDigitFormatter(date.getSeconds())}`;
+            `${Intl.DateTimeFormat().resolvedOptions().timeZone} ${Utils.doubleDigitFormatter(date.getHours())}:${Utils.doubleDigitFormatter(date.getMinutes())}:${Utils.doubleDigitFormatter(date.getSeconds())}`;
 
         const timer: NodeJS.Timeout = setInterval(() => {
             setCurrentTime(timeString);
@@ -24,10 +25,4 @@ export function TextClock(): JSX.Element {
             {currentTime.length === 0 ? "Loading..." : currentTime}
         </Text>
     );
-}
-
-function doubleDigitFormatter(s: number): string {
-    const numberStr: string = String(s);
-
-    return numberStr.length === 2 ? numberStr : "0" + numberStr;
 }
