@@ -1,5 +1,5 @@
 import { ProfileCard } from "@/components/ProfileCard";
-import { Box, Flex } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 
 export default function Home(): JSX.Element {
   return (
