@@ -1,6 +1,5 @@
 import { ProfileCard } from "@/components/ProfileCard";
-import { UtilsBar } from "@/components/UtilsBar";
-import { Box, Grid, GridItem } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 
 export default function Home(): JSX.Element {
   return (
@@ -19,17 +18,7 @@ export default function Home(): JSX.Element {
         justifyContent="center"
         alignItems="center"
       >
-        <Grid
-          gap={5}
-        >
-          <GridItem>
-            <UtilsBar />
-          </GridItem>
-
-          <GridItem>
-            <ProfileCard />
-          </GridItem>
-        </Grid>
+        <ProfileCard />
       </Box>
     </Box >
   );
