@@ -1,4 +1,4 @@
-import { Card, CardHeader, Flex, Avatar, Box, CardFooter, Button, Link, Text, CardBody, VStack, HStack } from "@chakra-ui/react";
+import { Card, CardHeader, Flex, Avatar, Box, CardFooter, Button, Link, Text, CardBody } from "@chakra-ui/react";
 import { FaGithub, FaDiscord, FaTwitter } from "react-icons/fa";
 import { TbMail, TbMapPin } from "react-icons/tb";
 
@@ -6,6 +6,7 @@ export function ProfileCard(): JSX.Element {
     return (
         <Card
             backgroundColor="#1B1A55"
+            position="relative"
         >
             <CardHeader>
                 <Flex gap="4">
