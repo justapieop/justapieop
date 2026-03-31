@@ -4,7 +4,7 @@ Personal profile page for Do Tran Thai An, a backend developer based in Vietnam.
 
 ## About
 
-Do Tran Thai An, known online as JustAPie, is a backend developer based in Vietnam. This repository contains the source code for his personal profile page, built with React, Vite, and Chakra UI.
+I'm Do Tran Thai An, known online as JustAPie. I'm a backend developer based in Vietnam.
 
 ## Tools
 
